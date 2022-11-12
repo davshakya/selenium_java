@@ -32,13 +32,10 @@ public class ArrayListDemo {
         
         int[] myNum = {10, 20, 30, 40};        
         for(int val:myNum) {
-            System.out.println(val);
+            System.out.println("Val="+val);
         }
-
-            
+     
             
         }
         
     }
-
-}
