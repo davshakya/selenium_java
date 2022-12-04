@@ -10,6 +10,11 @@ public class MainFun {
             System.out.println("This is first time i am using Lambda expression");
         };
         i.sayHello();
+
+
+        MyInter i2 = ()-> System.out.println("This is second time i am using Lambda expression");
+        
+        i2.sayHello();
     }
     
 } 
