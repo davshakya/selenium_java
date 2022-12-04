@@ -5,7 +5,7 @@ public class SeleniumPractice1 {
 
     public static void main(String[] args) {
         ChromeDriver driver=new ChromeDriver();
-        driver.get("");
+        driver.get("https://www.google.com/");
     }
 
 }

@@ -9,7 +9,7 @@ public class Demo_Test_004 {
 	@BeforeTest
 	public void start() throws InterruptedException {
 		// TODO Auto-generated method stub
-//		System.setProperty("webdriver.chrome.driver","C:\\work\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\work\\chromedriver.exe");
 		ChromeOptions option=new ChromeOptions();
 		option.addArguments("disable-infobars");
 		option.addArguments("--start-maximized");
